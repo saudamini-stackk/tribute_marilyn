@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marilyn Monroe</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7c6d9;
+    }
+
+    header {
+        background-color: #e91e63;
+        color: #fff5dc;
+        text-align: center;
+        padding: 20px;
+        font-family: cursive;
+    }
+
+    .content {
+        max-width: 900px;
+        margin: 30px auto;
+        background-color: #fde4ef;
+        color: #5a0f2e;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .bio-container {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .bio-container img {
+        width: 200px;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(233, 30, 99, 0.4);
+    }
+
+    .bio-text h2 {
+        color: #c2185b; 
+    }
+
+    .media-section {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .media-section h2 {
+        color: #c2185b;
+        margin-bottom: 20px;
+    }
+
+    .media-card {
+        max-width: 600px;
+        margin: auto;
+        background-color: #fff0f7;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(233, 30, 99, 0.3);
+    }
+
+    .media-card img {
+        width: 130px;
+        height: 130px;
+        border-radius: 14px;
+        object-fit: cover;
+    }
+
+    .media-info h3 {
+        margin: 0;
+        color: #ad1457;
+        font-size: 22px;
+    }
+
+    .media-info p {
+        margin: 6px 0 15px;
+        color: #6d1b3f;
+        font-size: 14px;
+    }
+
+    audio {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .achievements {
+        background-color: #e91e63;
+        color: #fff5dc;
+        padding: 15px;
+        border-radius: 14px;
+        margin-top: 40px;
+        box-shadow: 0 8px 25px rgba(233, 30, 99, 0.4);
+    }
+
+    .achievements h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .achievements ul {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+    .achievements li {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        background-color: #c2185b;
+        color: #fff5dc;
+        text-align: center;
+        padding: 12px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    @media (max-width: 1000px) {
+        .bio-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .bio-container img {
+            margin: auto;
+        }
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Marilyn Monroe</h1>
+</header>
+<div class="content">
+
+    <section class="biography">
+        <div class="bio-container">
+
+            <img src="mary2.jpg" alt="Marilyn Monroe">
+
+            <div class="bio-text">
+                <h2>About Marilyn Monroe</h2>
+                <p>
+                    <b>Marilyn Monroe</b> was an American actress, model, and singer, and one of the most iconic figures of the 20th century. <br><br>
+                    She became famous for playing comedic “blonde bombshell” roles in Hollywood films during the 1950s. <br><br>
+                    Her most famous movies include <i>Gentlemen Prefer Blondes</i>, <i>Some Like It Hot</i>, and <i>The Seven Year Itch</i>. <br><br>
+                    Marilyn Monroe was admired for her beauty, charm, and screen presence, becoming a global cultural icon. <br><br>
+                    Despite her fame, she faced personal struggles throughout her life. <br><br>
+                    <b>She passed away in 1962, but remains one of the most enduring legends in film history.</b><br><br>
+                    <b><i>Marilyn Monroe didn’t wear fashion to be seen — she wore it to be remembered.</b></i>
+                </p>
+
+                <section class="media-section">
+                    <h2>Famous Song</h2>
+
+                    <div class="media-card">
+                        <img src="covermar.jpg" alt="Diamonds Are a Girl's Best Friend">
+
+                        <div class="media-info">
+                            <h3>Diamonds Are a Girl's Best Friend</h3>
+                            <p>Marilyn Monroe</p>
+
+                            <audio controls>
+                                <source src="marsong.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </section>
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>One of the most famous Hollywood actresses of all time</li>
+            <li>Golden Globe Award for Best Actress</li>
+            <li>Star on the Hollywood Walk of Fame</li>
+            <li>Enduring cultural icon and fashion symbol</li>
+        </ul>
+    </section>
+
+</div>
+<footer>
+    <p>Created by Saudamini Nayak | BTech CSE 2025-2029</p>
+</footer>
+</body>
+</html>
